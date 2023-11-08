@@ -63,6 +63,10 @@ li {
   text-align: center;
 }
 
+p {
+color: crimson;
+}
+
 
 @keyframes App-logo-spin {
   from {
