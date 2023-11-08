@@ -1,6 +1,8 @@
 function Products () {
+
+    
     return (
-        <main>
+        <main class="mainstyle">
             <article>
                  <h2>Mon premier produit</h2>
                  <p>Mon premier produit est un truc de fou introuvable</p>
