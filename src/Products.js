@@ -1,22 +1,19 @@
 function Products () {
 
-    
+    const productsFromDb = [
+        "Produit 1", "Produit 2", "Produit 3"
+    ];
+
     return (
         <main class="mainstyle">
-            <article>
-                 <h2>Mon premier produit</h2>
-                 <p>Mon premier produit est un truc de fou introuvable</p>
-            </article>
-            <article>
-                 <h2>Mon second produit</h2>
-                 <p>Mon second produit est un truc de fou introuvable</p>
-            </article>   
-            <article>
-                 <h2>Mon troisième produit</h2>
-                 <p>Mon troisième produit est un truc de fou introuvable</p>
-            </article>  
+            {productsFromDb.map((product) => {
+            return (
+                <article>
+                    <h2>{product}</h2>
+                </article>
+            );
+            })}
         </main>       
     );
 }
-
 export default Products;
